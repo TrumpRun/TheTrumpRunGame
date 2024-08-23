@@ -1,0 +1,27 @@
+/* Style for the body to center the content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the game */
+#game-container {
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Basic style for the title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
